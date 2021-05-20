@@ -61,6 +61,16 @@ I tried this with a Raspberry Pi 3B+ with the SO Raspbian. If you try with other
 
 `./xlarig --donate-level 0 -o scala.pooldemineria.com:3333 -u YOUR_SCALA_WALLET_ADDRESS -p YOUR_WORKER_NAME -a panthera -k`
 
+9. Autostart Options
+
+`crontab -e`
+
+go to the end of file
+
+`@reboot ./XLArig/build/xlarig --donate-level 0 -o scala.pooldemineria.com:3333 -u YOUR_SCALA_WALLET_ADDRESS -p YOUR_WORKER_NAME -a panthera -k`
+
+safe file
+
 
 **Donations:** Svkzohotw2D5xk8r8JJ7ePX1K2NgPrJBJ61eVE17jVogKD5dksagwnE1akdLkR6P3NEU9TdqqN3bEXB4ryubGukS2gB2sr5v7
 
